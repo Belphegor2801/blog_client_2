@@ -1,0 +1,150 @@
+body {
+    background-color: #fff;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"], input[type="date"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+
+.blog-container {
+    margin: 0 auto;
+    padding: 32px;
+  }
+  
+  .blog-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .blog-time {
+    font-size: 16px;
+    color: #999;
+    padding: 1rem 0rem;
+  }
+  
+  .blog-body {
+    font-size: 18px;
+    line-height: 1.5;
+    justify-content: center;
+  }
+  
+  .blog-image {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: -3px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+    border: 1px solid #000;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+  }
+
+
+  .blog-grid {
+    margin: 0 1rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    grid-gap: 1rem;
+  }
+  
+  .blog-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+  }
+  
+  .blog-item-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    background-color: #aaa;   
+  }
+
+  .blog-item-img img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+  }
+
+  .blog-item-button {
+    margin: 5px auto;
+    display: flex;
+  }
+  
+  .blog-item-title {
+    padding: 0px 1rem;
+    text-align: justify;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .blog-item-time {
+    padding: 0.6rem 1rem;
+    text-align: justify;
+    color: #333;
+    font-size: 1rem;
+  }
+
+  .blog-item-body {
+    padding: 0px 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+
